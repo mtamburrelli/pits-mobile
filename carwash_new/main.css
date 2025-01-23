@@ -54,7 +54,7 @@ nav {
   
   .off-screen-menu ul li a {
     font-size: 1.5rem; /* Adjust this value as needed */
-    font-family: Saira Stencil One, var(--default-font-family);
+    font-family: Allerta Stencil;
     color: #f3f3f5;
     text-decoration: none;
     margin: 10px 0; /* Add spacing between items */
@@ -151,11 +151,12 @@ nav {
 
 .servicios-title {
     top: 20px;
-    left: 260px;
+    text-align: left;
+    padding-left: 50px;
     color: #cf0029;
     text-align: left;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: Allerta Stencil;    
     z-index: 9;
 }
@@ -296,7 +297,7 @@ nav {
 
 .image-container {
     width: 100%;
-    height: 24rem;
+    height: 12rem;
     margin: 10px 0 0 0;
     flex-wrap: wrap;
     display: flex;
@@ -305,11 +306,11 @@ nav {
     opacity: 0.90;
     align-items: center;
     gap: 0.5rem;
-    padding-bottom: 43%;
+    padding-bottom: 45%;
   }
   
   .image-container img {
-    width: 22%;
+    width: 23%;
     height: auto;
     margin: 0.5rem;
     object-fit: contain;
@@ -359,18 +360,19 @@ Copy
 
 .quienes-somos-text{
     font-size: 1.1rem;
-    color: white;
+    color: #ffffff;
     font-family: Allerta Stencil;
-    text-align: justify;
+    text-align: left;
     padding-right: 50px;
     padding-left: 50px;
 }
 
 .quienes-somos-text h1{
-    font-size: 2rem;
-    color: #cf0029;
+    font-size: 4rem;
+    color: #cf0029;;
     font-family: Allerta Stencil;
-    padding: 1rem;
+    text-align: left;
+    padding-right: 50px;
 }
 
 .contact-section { 
@@ -385,14 +387,26 @@ Copy
     opacity: 1;
 }
 
-.contact-title {
-    padding: 20px 0;
-    color: #cf0029;
+.clients-title {
+    top: 20px;
     text-align: left;
+    padding-left: 50px;
+    color: #cf0029;
     margin-bottom: 20px;
-    font-size: 2.5rem; /* Slightly smaller for mobile */
-    font-family: Allerta Stencil;
-    padding-left: 20px; /* Instead of left: 220px */
+    font-size: 4rem;
+    font-family: Allerta Stencil;    
+    z-index: 9;
+}
+
+.contact-title {
+    top: 20px;
+    text-align: left;
+    padding-left: 50px;
+    color: #cf0029;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-family: Allerta Stencil;    
+    z-index: 9;
 }
 
 .contact-info {
@@ -529,7 +543,7 @@ Copy
   
   .review-text {
     color: #cccccc;
-    font-family: Saira Stencil One, var(--default-font-family);
+    font-family: Allerta Stencil, var(--default-font-family);
     font-size: 0.95rem;
     line-height: 1.6;
   }
@@ -728,10 +742,10 @@ Copy
     .banner-text {
         position: absolute;
         left: 300px; /* Adjust positioning as needed */
-        top: 40%;
+        top: 30%;
         transform: translateY(-50%);
         color: white;
-        font-size: 4rem;
+        font-size: 6rem;
         font-family: Allerta Stencil;
         text-transform: uppercase;
         z-index: 2;
