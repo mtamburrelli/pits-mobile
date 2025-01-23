@@ -181,7 +181,7 @@ nav {
 .pits-carwash-logo {
     width: 10rem; /* adjust as needed */
     height: 8rem; /* adjust as needed */
-    background: url('assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png');
+    background: url('./assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -190,7 +190,7 @@ nav {
 .pits-detailing {
     width: 10rem; /* adjust as needed */
     height: 8rem; /* adjust as needed */
-    background: url('/assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png');
+    background: url('./assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -704,7 +704,7 @@ Copy
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('/assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg');
+        background-image: url('./assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg');
         background-size: cover;
         background-position: center;
         border-radius: 8px; /* Match container radius */
