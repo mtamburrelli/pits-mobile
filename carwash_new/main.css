@@ -1,11 +1,8 @@
-html{
-    width: auto;
-    height: auto;
-    font-family: Allerta Stencil, var(--default-font-family);
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(66, 0, 0));
-    /*background-image: url("./assets/images/background.webp");*/
-    background-size: contain;
-    background-repeat: repeat;
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: raleway;
+    background-color: #333;
 }
 
 a {
@@ -33,7 +30,7 @@ nav {
     right: -350px;  /* Initially hidden */
     height: 100vh;
     width: 255px;
-    background-color: rgba(10, 0, 0, 0.85);
+    background-color: rgba(10, 0, 0, 0.966);
     z-index: 9999;
     transition: right 0.3s ease;
     display: flex;
@@ -54,7 +51,7 @@ nav {
   
   .off-screen-menu ul li a {
     font-size: 1.5rem; /* Adjust this value as needed */
-    font-family: Allerta Stencil;
+    font-family: Saira Stencil One, var(--default-font-family);
     color: #f3f3f5;
     text-decoration: none;
     margin: 10px 0; /* Add spacing between items */
@@ -129,10 +126,10 @@ nav {
     max-width: 1200px; /* Maximum width for larger screens */
     width: 90%; /* Relative width for smaller screens */
     margin: 0 auto; /* Center the container */
-    padding: 0px; /* Padding for inner spacing */
+    padding: 20px; /* Padding for inner spacing */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
     background-color: #000000; /* Background color */
-    border-radius: 0px; /* Rounded corners */
+    border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Prevents content from overflowing */
 }
 
@@ -151,12 +148,11 @@ nav {
 
 .servicios-title {
     top: 20px;
-    text-align: left;
-    padding-left: 50px;
+    left: 260px;
     color: #cf0029;
     text-align: left;
     margin-bottom: 20px;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Allerta Stencil;    
     z-index: 9;
 }
@@ -185,7 +181,7 @@ nav {
 .pits-carwash-logo {
     width: 10rem; /* adjust as needed */
     height: 8rem; /* adjust as needed */
-    background: url('./assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png');
+    background: url('assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -194,7 +190,7 @@ nav {
 .pits-detailing {
     width: 10rem; /* adjust as needed */
     height: 8rem; /* adjust as needed */
-    background: url('./assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png');
+    background: url('/assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,7 +293,7 @@ nav {
 
 .image-container {
     width: 100%;
-    height: 12rem;
+    height: 24rem;
     margin: 10px 0 0 0;
     flex-wrap: wrap;
     display: flex;
@@ -306,11 +302,11 @@ nav {
     opacity: 0.90;
     align-items: center;
     gap: 0.5rem;
-    padding-bottom: 45%;
+    padding-bottom: 43%;
   }
   
   .image-container img {
-    width: 23%;
+    width: 22%;
     height: auto;
     margin: 0.5rem;
     object-fit: contain;
@@ -360,19 +356,16 @@ Copy
 
 .quienes-somos-text{
     font-size: 1.1rem;
-    color: #ffffff;
-    font-family: Allerta Stencil;
-    text-align: left;
-    padding-right: 50px;
-    padding-left: 50px;
+    color: white;
+    font-family: raleway;
+    padding: 0.5rem;
 }
 
 .quienes-somos-text h1{
-    font-size: 4rem;
-    color: #cf0029;;
+    font-size: 2rem;
+    color: #cf0029;
     font-family: Allerta Stencil;
-    text-align: left;
-    padding-right: 50px;
+    padding: 1rem;
 }
 
 .contact-section { 
@@ -381,32 +374,20 @@ Copy
     background-color: black;
     color: white;
     text-align: left;
-    font-family: Allerta Stencil;
+    font-family: Saira Stencil One, var(--default-font-family);
     min-height: 400px;
     width: 100%; /* Make it responsive */
     opacity: 1;
 }
 
-.clients-title {
-    top: 20px;
-    text-align: left;
-    padding-left: 50px;
-    color: #cf0029;
-    margin-bottom: 20px;
-    font-size: 4rem;
-    font-family: Allerta Stencil;    
-    z-index: 9;
-}
-
 .contact-title {
-    top: 20px;
-    text-align: left;
-    padding-left: 50px;
+    padding: 20px 0;
     color: #cf0029;
+    text-align: left;
     margin-bottom: 20px;
-    font-size: 4rem;
-    font-family: Allerta Stencil;    
-    z-index: 9;
+    font-size: 2.5rem; /* Slightly smaller for mobile */
+    font-family: Allerta Stencil;
+    padding-left: 20px; /* Instead of left: 220px */
 }
 
 .contact-info {
@@ -543,7 +524,7 @@ Copy
   
   .review-text {
     color: #cccccc;
-    font-family: Allerta Stencil, var(--default-font-family);
+    font-family: Saira Stencil One, var(--default-font-family);
     font-size: 0.95rem;
     line-height: 1.6;
   }
@@ -708,13 +689,13 @@ Copy
 
     .banner {
         position: relative;
-        width: 100%;
+        width: 90%;
         height: 300px; /* Adjust height as needed */
-        margin: 0 auto;
         overflow: hidden;
         max-width: 1200px;
-        border-radius: 0px; /* Match main-container border-radius */
-        margin-bottom: 0px; /* Add space between banner and main container */
+        margin: 0 auto;
+        border-radius: 8px; /* Match main-container border-radius */
+        margin-bottom: 20px; /* Add space between banner and main container */
     }
     
     .banner-background {
@@ -723,29 +704,29 @@ Copy
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('./assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg');
+        background-image: url('/assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg');
         background-size: cover;
         background-position: center;
-        border-radius: 0px; /* Match container radius */
+        border-radius: 8px; /* Match container radius */
     }
     
     .banner-logo {
         position: absolute;
-        left: 10px; /* Adjust positioning as needed */
+        left: 50px; /* Adjust positioning as needed */
         top: 50%;
         transform: translateY(-50%);
-        width: 16rem; /* Adjust size as needed */
-        height: 10rem;
+        width: 20%; /* Adjust size as needed */
+        height: 38%;
         z-index: 2;
     }
     
     .banner-text {
         position: absolute;
         left: 300px; /* Adjust positioning as needed */
-        top: 30%;
+        top: 40%;
         transform: translateY(-50%);
         color: white;
-        font-size: 6rem;
+        font-size: 4rem;
         font-family: Allerta Stencil;
         text-transform: uppercase;
         z-index: 2;
